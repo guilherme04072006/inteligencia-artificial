@@ -6,41 +6,42 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "O que são resíduos sólidos?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Galhos, produtos eletroeletrônicos, plástico, embalagem e papelão.",
+                afirmacao: "Resíduos sólidos são materiais descartados provenientes de atividades humanas e processos naturais, apresentando-se no estado sólido. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Tudo que seja proveniente de produções humanas ou processos naturais.",
+                afirmacao: "Resíduos sólidos são materiais descartados provenientes de atividades humanas e processos naturais, apresentando-se no estado sólido."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Como fazer a separação correta do lixo?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "AMARELO - Metais, Azul - Papel, VRMELHO - Plástico, VERDE - Vidros, PRETO - Madeiras, LARANJA - Pilhas e Baterias, MARROM - Lixo Orgânico, ROXO - Lixo Radioativo, BRANCO - Lixo Hospitalar e CINZA - Não Reciclável",
+                afirmacao: "A importância da reciclagem pode ser vista em diferentes aspectos. Primeiramente, ela ajuda a conservar os recursos naturais do nosso planeta. Ao reciclar materiais, podemos reduzir a extração de matérias-primas, como árvores e minerais, preservando os ecossistemas e evitando danos irreversíveis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "O aterro sanitário é o local adequado onde o lixo deve ser depositado e descartado. Em linhas gerais, de acordo com a Política Nacional de Resíduos Sólidos, apenas os resíduos sólidos que não podem ser reutilizados ou reciclados devem ser destinados ou dispostos nesses locais.",
+                afirmacao: "A importância da reciclagem pode ser vista em diferentes aspectos. Primeiramente, ela ajuda a conservar os recursos naturais do nosso planeta. Ao reciclar materiais, podemos reduzir a extração de matérias-primas, como árvores e minerais, preservando os ecossistemas e evitando danos irreversíveis."
             }
         ]
     },
-    {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+    {Após
+        enunciado: "Quais são as diferenças entre resíduos sólidos, lixo e rejeito?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Lixo: tudo que não se quer mais ese joga fora. Resíduo: você não precisa mais, porém pode ser útil para outra pessoa. Rejeito: Quando já foi reaproveitado de todas as formas.",
+                afirmacao: "Lixo, resíduo e rejeito são palavras normalmente usadas como sinônimos. Porém existem diferenças entre elas, saber diferenciar três simples palavras pode mudar a visão que do seu empreendomento sobre o que sobra dos processos e atividades organizacionais."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Lixo é tudo o que se retira de um lugar para deixá-lo limpo, os resíduos sólidos que quando descartados não podem ser lançados no esgoto. São considerados os rejeitos os resíduos de banheiro, por exemplo, como papel higiênico usado, absorventes femininos, ou amisinhas e fraldas descartáveis.",
+        alternativas: [
+                afirmacao: "Lixo, resíduo e rejeito são palavras normalmente usadas como sinônimos. Porém existem diferenças entre elas, saber diferenciar três simples palavras pode mudar a visão que do seu empreendomento sobre o que sobra dos processos e atividades organizacionais."
             }
         ]
     },
